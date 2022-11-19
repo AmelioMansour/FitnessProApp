@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         webView = findViewById(R.id.webview);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://ameliomansour.github.io/Fitness-Pro-Website/Frontend");
+        webView.loadUrl("https://fitness-pro-project.herokuapp.com/");
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
